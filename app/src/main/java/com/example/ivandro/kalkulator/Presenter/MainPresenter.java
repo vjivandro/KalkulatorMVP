@@ -18,7 +18,7 @@ public class MainPresenter {
     public void hitungLuas(int panjang, int lebar) {
         int luas = luasPersegi(panjang, lebar);
         model = new MainModel(luas);
-        view.gittampilkanLuas(model);
+        view.tampilkanLuas(model);
     }
 
     public int luasPersegi(int panjang, int lebar) {
